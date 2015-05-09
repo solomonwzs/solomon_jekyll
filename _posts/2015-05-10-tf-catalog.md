@@ -1,6 +1,6 @@
 ---
 layout: default
-title: bio
+title: TF Catalog
 ---
 
 # 变2真人版 美版
