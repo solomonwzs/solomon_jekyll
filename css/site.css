@@ -1,3 +1,30 @@
 *{
-    font-family:monospace;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+}
+
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    color:#333;
+}
+
+.mid{
+    margin:0 auto;
+    width:960px;
+}
+
+.content{
+    float:left;
+    margin-top:10px;
+}
+
+.content *{
+    float:left;
+    position:relative;
+}
+
+.file{
+    border:1px solid #ddd;
+    margin:20px 0 20px 0;
 }
