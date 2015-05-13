@@ -9,6 +9,11 @@ body{
     color:#333;
 }
 
+a{
+    text-decoration:none;
+    color:#4183c4;
+}
+
 .mid{
     margin:0 auto;
     width:960px;
@@ -17,11 +22,42 @@ body{
 .content{
     float:left;
     margin-top:10px;
+    width:930px;
+    padding:10px 15px;
 }
 
 .content *{
     float:left;
     position:relative;
+}
+
+.content p{
+    width:930px;
+}
+
+.content ul.post-ul{
+    width:900px;
+    margin:10px 0;
+    padding:0 0 0 30px;
+}
+
+.content ul.post-ul li{
+    width:900px;
+    margin:5px 0;
+}
+
+.content ul.post-ul .date{
+    width:100px;
+}
+
+.content ul.post-ul a.title{
+    font-weight:bold;
+}
+
+.content h2{
+    width:960px;
+    padding:0 0 10px 0;
+    margin:36px 0 16px 0;
 }
 
 .file{
